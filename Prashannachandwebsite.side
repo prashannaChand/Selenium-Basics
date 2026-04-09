@@ -1,0 +1,400 @@
+{
+  "id": "f0d4e63f-c17c-43c0-ae3a-b396a54a11c7",
+  "version": "2.0",
+  "name": "Prashannachandwebsite",
+  "url": "https://prashannachand.com.np",
+  "tests": [{
+    "id": "e7eccbdc-a4bb-46c6-82d0-2aa31af313a1",
+    "name": "demo test",
+    "commands": [{
+      "id": "3ddea870-0467-4752-8376-59580743789a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf34d417-a558-40fc-be8f-958f6a7ff035",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3743374f-d003-41c3-a3b2-c8371c324af3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e7c114-a5f3-47db-a209-efa29b934fda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11a53479-ced8-4ad1-9540-9a3df0f90ab0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Skills",
+      "targets": [
+        ["linkText=Skills", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Skills')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#skills')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Skills')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dde317c-254b-42f7-8f34-708cb3e4b8a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'projects.html')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efcea4e-c5c5-4d6e-811a-6d134f8436ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View project details",
+      "targets": [
+        ["linkText=View project details", "linkText"],
+        ["css=.bg-gray-900\\/70:nth-child(2) > .text-teal-400", "css:finder"],
+        ["xpath=//a[contains(text(),'View project details')]", "xpath:link"],
+        ["xpath=//section[@id='projects']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'projectDetails/javaservlet.html')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View project details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d58454-8b08-436d-8a62-6e0dbe023bab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🔗 View Project code",
+      "targets": [
+        ["linkText=🔗 View Project code", "linkText"],
+        ["css=.hover\\3Atext-teal-200", "css:finder"],
+        ["xpath=//a[contains(text(),'🔗 View Project code')]", "xpath:link"],
+        ["xpath=//section[@id='project-detail']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://github.com/prashannaChand/JAVA_SERVLET_DEMO')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🔗 View Project code')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8239",
+      "windowTimeout": 2000
+    }, {
+      "id": "1fd2f305-5fe4-46e1-bb14-2dd2096ab37e",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f872822-44d5-4dd6-b442-6f589456bad9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8239}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ca69ad1-5d69-4b6a-bb36-7205852915f9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd29c0fd-9914-4675-8999-9adc87e24afd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../projects.html')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ca2a9c-3bfd-4ea6-a770-529307a87025",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900\\/70:nth-child(3) > .text-teal-400",
+      "targets": [
+        ["css=.bg-gray-900\\/70:nth-child(3) > .text-teal-400", "css:finder"],
+        ["xpath=(//a[contains(text(),'View project details')])[2]", "xpath:link"],
+        ["xpath=//section[@id='projects']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'projectDetails/sign.html')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ba0ec7-e94b-4c06-856a-3e069c1db68e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🔗 View Project code",
+      "targets": [
+        ["linkText=🔗 View Project code", "linkText"],
+        ["css=.hover\\3Atext-teal-200", "css:finder"],
+        ["xpath=//a[contains(text(),'🔗 View Project code')]", "xpath:link"],
+        ["xpath=//section[@id='project-detail']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://github.com/prashannaChand/SignLanguageDetection')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🔗 View Project code')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2212",
+      "windowTimeout": 2000
+    }, {
+      "id": "f0707f52-7351-46f4-8ebe-416e73d31e3e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2212}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bba46f8-4a89-49ae-822c-83471e4e4d4b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2288c399-c7e6-46dc-a916-717966e9987c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../projects.html')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f7ab164-ba8e-4cfa-b7a4-b13028046470",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View project Testing",
+      "targets": [
+        ["linkText=View project Testing", "linkText"],
+        ["css=.bg-gray-900\\/70:nth-child(4) > .text-teal-400:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'View project Testing')]", "xpath:link"],
+        ["xpath=//section[@id='projects']/div/div/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://github.com/prashannaChand/Cat-dog_project_manual_tests')]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'View project Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94f8d4f-687b-4b01-9375-a81e19c48ec0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.nav-link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'contact.html')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eec4a5b8-9996-4e71-a1f9-413c95c8f317",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6d00a8-b6e5-4045-b3ca-3ca822824997",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ide"
+    }, {
+      "id": "b6140617-391d-40de-ab0d-2bfebfcdaef4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "535fb652-0fa3-4c09-be02-e52808cc5366",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "ide@gmail.com"
+    }, {
+      "id": "71139453-3ca3-4621-86d4-d973fc6491a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ceb17d-9aed-4d04-8e33-6dd9cfe7ac40",
+      "comment": "",
+      "command": "type",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ide test"
+    }, {
+      "id": "58c5d49e-5400-4052-8006-48b619477f1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "004efef0-9b34-4249-99c4-c3e4ef96ebb3",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "ide test 123"
+    }, {
+      "id": "bcee92d4-d501-495b-a185-49b214901d92",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='contact-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send Message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f1ebce6-8991-4a64-95cb-b50093dbac84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go back",
+      "targets": [
+        ["linkText=Go back", "linkText"],
+        ["css=.primaryLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Go back')]", "xpath:link"],
+        ["xpath=//a[@onclick='if (!window.__cfRLUnblockHandlers) return false; window.history.go(-1)']", "xpath:attributes"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca93d89-63bd-494a-a045-3d6f3c76ba61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Experiences",
+      "targets": [
+        ["linkText=Experiences", "linkText"],
+        ["css=.font-semibold", "css:finder"],
+        ["xpath=//a[contains(text(),'Experiences')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'experiences.html')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Experiences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c57cab1-0295-4ba7-80cb-5c4e13ecfca5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7eccbdc-a4bb-46c6-82d0-2aa31af313a1"]
+  }],
+  "urls": ["https://prashannachand.com.np/"],
+  "plugins": []
+}

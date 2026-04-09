@@ -21,7 +21,7 @@ driver.find_element(By.LINK_TEXT,"Skills").click()
 time.sleep(5)
 
 #project section
-driver.find_element(By.LINK_TEXT,"Projects").click()
+driver.find_element(By.LINK_TEXT,"Development Projects").click()
 time.sleep(5)
 
 #viewing each project(currently viewing only 3)
